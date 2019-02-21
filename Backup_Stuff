@@ -1,0 +1,13 @@
+Layout:
+        header
+            a href="/"
+                h1 Welcome to Evil Corp
+        main
+
+
+
+index:
+
+div class="wrapper"
+    a href="/users" List Users
+    a href="/users/new" Create User
