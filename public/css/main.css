@@ -1,123 +1,28 @@
-body{  
-    width: 100vw;
-    height: 100vh;
-    background: lightblue;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+body {
+    width: 90vw;
+    height: 90vh;
 }
 
+.login_area {
+    width: 99vw;
+    height: 20vh;
+    background-color: orange;
+    border-radius: 5px;
+}
 
-
-header{
+.login_box {
     text-align: center;
-    color: black;
-    width: 100%;
-    background-color: rgb(137, 137, 184);
-    padding: 20px;
-    box-sizing: border-box;
+    margin-top: 50px;
 }
 
-footer{
-    display: grid;
+.welcome_text {
     text-align: center;
-    color: black;
-    width: 100%;
-    background-color: rgb(137, 137, 184);
-    box-sizing: border-box;
 }
 
-.info_feed{
-
-}
-
-.login_area{
-
-}
-
-.login_box{
-
-}
-
-
-img{
-    width: 50px;
-    height: 50px;
-}
-
-h2{
-   
-}
-
-article{
-    color: gray;
-    box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.42);
-    margin: 20px;
-    /* padding: 15px 35px 15px 35px; */
-    width: 500px;
-    display: grid;
-    grid-template-columns: 30% auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "controls controls" "image info";
-    background-color: #fff;
-}
-
-article .controls{
-    grid-area: controls;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: rgba(0,0,0,0.1);
-}
-
-article .controls i.material-icons{
-    color: gray;
-    /* margin: 0 5px; */
-}
-
-.controls a, .controls button{
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: background 0.2s;
-    cursor: pointer;
-    outline: none;
-}
-
-.controls a:hover, .controls button:hover{
-    background: rgba(255,255,255,0.6)
-}
-
-article img{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    grid-area: image;
-    justify-self: center;
-    align-self: center;
-}
-
-article .info{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    border-left: 1px solid lightgray;
-    grid-area: info;
-}
-
-article label, article input, article select{
-    margin: 5px 20px 5px 0;
-}
-
-a{
-    color: darkblue;
-    text-decoration: none;
-}
-
-button{
-    border: 0;
-    background: transparent;
+.info_feed {
+    width: 99vw;
+    height: 74vh;
+    background-color: lightblue;
+    margin-top: 50px;
+    border-radius: 5px;
 }

@@ -6,8 +6,6 @@ div class="login_area"
             - if session.key?("user")
                 a href="/profile/#{session['user']}"
                     input type="button" value="PRoFilE"
-                form action="/logout" method="POST"
-                    input value="Logout" type="Submit"
             - else
                 form action="/login" method="POST"
                     input name="username" placeholder="Username" type="text"
@@ -19,5 +17,5 @@ div class="login_area"
                     input value="Create Account" type="Submit"
                 
         div class="info_feed"
-
+            h1 You have been sucessfully logged in
 
